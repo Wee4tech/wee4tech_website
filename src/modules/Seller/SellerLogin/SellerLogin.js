@@ -38,6 +38,7 @@ const SellerLogin = () => {
 
     // if (response?.data?.status) {
     //   showSuccessToast(response.data.message);
+    showErrorToast(emailOrPhone);
     if (emailOrPhone.trim().toLowerCase() === "it@wee4techsolutions.com") {
       localStorage.setItem("accessToken", "asfasdasdsadsadsaddfgdfg");
       localStorage.setItem("bmp_id", "1");
