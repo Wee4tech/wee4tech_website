@@ -63,20 +63,9 @@ const SellerLogin = () => {
         });
 
         if (response?.data?.status) {
-          const accessToken = response?.data?.data?.access;
-          localStorage.setItem("accessToken", accessToken);
-          localStorage.setItem(
-            "selleruserName",
-            response?.data?.data?.data[0]?.person_full_name
-          );
-          localStorage.setItem("bmp_id", response?.data?.data?.data[0]?.bmp_id);
-          localStorage.setItem(
-            "bmp_name",
-            response?.data?.data?.data[0]?.vendor_name
-          );
-
-          setIsEmailValid(true);
-          dispatch(getAuthToken(accessToken));
+          const UserId = response?.data?.data?.access;         
+          localStorage.setItem("UserId", UserId);
+          setIsEmailValid(true);         
           dispatch(getLoginUserDetail(response?.data?.data));
           setOtpModal(false);
           showSuccessToast(response?.data?.message);
@@ -135,8 +124,8 @@ const SellerLogin = () => {
               md={{ span: 24 }}
               lg={{ span: 24 }}
             >
-              <a href="/seller">
-              <Image src={PartnerLogoIcon}></Image>
+              <a href="/login">
+              <Image src={PartnerLogoIcon} preview={false} width={180}   style={{  paddingTop: "1rem" }}></Image>
                 {/* <PartnerLogoIcon
                   style={{ height: "40px", paddingTop: "1rem" }}
                 /> */}
@@ -150,7 +139,7 @@ const SellerLogin = () => {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              height: "100vh",
+              height: "80vh",
               width: "100%",
             }}
           >
@@ -197,7 +186,7 @@ const SellerLogin = () => {
                       >
                         <Input
                           // type="number"
-                          inputMode="numeric"
+                          // inputMode="numeric"
                           maxLength={100}
                           className={isEmailValid ? "custom-input" : ""}
                           style={{
