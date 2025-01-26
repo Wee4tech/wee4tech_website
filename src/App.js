@@ -16,7 +16,7 @@ import Page404 from "./modules/NotFoundPage/Page404.js";
 
 import SellerLogin from "./modules/Seller/SellerLogin/SellerLogin.js";
 
-import Termsandcondition from "./modules/TermsAndCondition/Termsandcondition.js";
+
 
 
 import ContactUs from "./modules/Reports/ContactUs/ContactUs.js";
@@ -98,13 +98,7 @@ function App() {
                 <Route exact path={path} element={<SellerLogin />} />
               ))}
 
-              {["/", "Termsandcondition"].map((path) => (
-                <Route exact path={path} element={<Termsandcondition />} />
-              ))}
-              {["/", "privacypolicy"].map((path) => (
-                <Route exact path={path} element={<Termsandcondition />} />
-              ))}
-              {/* Private Routes */}
+             
 
               {/* DASHBOARD ROUTES */}
               <Route
