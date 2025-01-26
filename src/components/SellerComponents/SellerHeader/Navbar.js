@@ -8,13 +8,14 @@ import {
 
   // eslint-disable-next-line
   Button,
+  Image,
 } from "antd";
 // eslint-disable-next-line
 import { DownOutlined } from "@ant-design/icons";
 import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
-import { ReactComponent as Logo } from "../../../assets/seller/icons/mobapartner.svg";
+import  Logo  from "../../../assets/icons/Wee4.png";
 
-import { ReactComponent as CrossIcon } from "../../../assets/seller/icons/x-close.svg";
+import { ReactComponent as CrossIcon } from "../../../assets/icons/x (3).svg";
 
 import "./Navbar.css";
 import {
@@ -33,7 +34,7 @@ const Navbar = ({ setCollapsed, collapsed }) => {
   const navigate = useNavigate();
   const handleNavigateDashboard = () => {
     const currentPath = window.location.pathname;
-    const dashboardPath = "/seller/sellerdashboard";
+    const dashboardPath = "/dashboard";
     if (currentPath === dashboardPath) {
       window.location.reload();
     } else {
@@ -64,10 +65,11 @@ const Navbar = ({ setCollapsed, collapsed }) => {
               >
                 {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
               </OpenCloseButton>
-              <Logo
+              <Image preview={false} width={180} src={Logo} onClick={handleNavigateDashboard} />
+              {/* <Logo
                 style={{ cursor: "pointer", width: "120px" }}
                 onClick={handleNavigateDashboard}
-              />
+              /> */}
             </LeftContainer>
           </Col>
 

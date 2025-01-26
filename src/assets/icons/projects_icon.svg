@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g data-name="building (1)">
+        <path data-name="Path 59594" d="M36.633 22.594h-1.855V.7a.7.7 0 0 0-.7-.7h-16.1a.7.7 0 0 0-.7.7v21.894h-1.859a.7.7 0 1 0 0 1.406h21.214a.7.7 0 1 0 0-1.406zm-13 0V17.8h4.793v4.793zm6.2 0V17.1a.7.7 0 0 0-.7-.7h-6.2a.7.7 0 0 0-.7.7v5.5H18.68V1.406h14.692v21.188z" style="fill:#6c7b8b" transform="translate(-14.025)"/>
+        <path data-name="Path 59595" d="M139.389 66.309h-3.446a.7.7 0 0 0-.7.7v3.446a.7.7 0 0 0 .7.7h3.446a.7.7 0 0 0 .7-.7v-3.443a.7.7 0 0 0-.7-.703zm-.7 3.446h-2.039v-2.04h2.039z" transform="translate(-128.899 -63.201)" style="fill:#6c7b8b"/>
+        <path data-name="Path 59596" d="M277.4 66.309h-3.446a.7.7 0 0 0-.7.7v3.446a.7.7 0 0 0 .7.7h3.446a.7.7 0 0 0 .7-.7v-3.443a.7.7 0 0 0-.7-.703zm-.7 3.446h-2.039v-2.04h2.039z" transform="translate(-260.442 -63.201)" style="fill:#6c7b8b"/>
+        <path data-name="Path 59597" d="M139.389 205.954h-3.446a.7.7 0 0 0-.7.7v3.446a.7.7 0 0 0 .7.7h3.446a.7.7 0 0 0 .7-.7v-3.446a.7.7 0 0 0-.7-.7zm-.7 3.446h-2.039v-2.04h2.039z" transform="translate(-128.899 -196.3)" style="fill:#6c7b8b"/>
+        <path data-name="Path 59598" d="M277.4 205.954h-3.446a.7.7 0 0 0-.7.7v3.446a.7.7 0 0 0 .7.7h3.446a.7.7 0 0 0 .7-.7v-3.446a.7.7 0 0 0-.7-.7zm-.7 3.446h-2.039v-2.04h2.039z" transform="translate(-260.442 -196.3)" style="fill:#6c7b8b"/>
+    </g>
+</svg>

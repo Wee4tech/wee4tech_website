@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Col, Row, Typography } from "antd";
-import { ReactComponent as PartnerLogoIcon } from "../../../assets/seller/icons/mobapartner.svg";
+import { Col, Image, Row, Typography } from "antd";
+import PartnerLogoIcon  from "../../../assets/icons/Wee4.png";
 import "./SellerLogin.css";
 import { Button, Form, Input, Spin } from "antd";
 import { useAdminLoginMutation } from "../../../apis/login.js";
@@ -136,9 +136,10 @@ const SellerLogin = () => {
               lg={{ span: 24 }}
             >
               <a href="/seller">
-                <PartnerLogoIcon
+              <Image src={PartnerLogoIcon}></Image>
+                {/* <PartnerLogoIcon
                   style={{ height: "40px", paddingTop: "1rem" }}
-                />
+                /> */}
               </a>
             </Col>
           </Row>

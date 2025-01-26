@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Col, Typography } from "antd";
-import SearchInput from "../../../components/Input/SearchInputs/SearchInput";
-import CustomTableWithPagination from "../../../components/CustomTableWithPagination/CustomTableWithPagination";
+import { Col, Input, Pagination, Table, Typography } from "antd";
+
 import { useLazyGetCarriersReportsQuery } from "../../../apis/reports";
-import TableSkeleton from "../../../components/skeleton/TableSkeleton";
 
 const { Text } = Typography;
 
 const Carriers = () => {
-  const [searchedValue, setSearchedValue] = useState({});
-
+  const [searchValue, setSearchValue] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
   const [
@@ -21,7 +18,8 @@ const Carriers = () => {
     getCustomerOrderReportApi({ UserId: 1 });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
+  const data = customerOrderReportData?._lstJobApplied || [];
+  const [filteredData, setFilteredData] = useState(data);
   const columns = [
     {
       title: "Name",
@@ -31,6 +29,40 @@ const Carriers = () => {
       fixed: "left",
       render: (params, record) => {
         return <Col>{params}</Col>;
+      },
+    },
+    {
+      title: "Resume",
+      dataIndex: "ResumePath",
+      key: "ResumePath",
+      width: "250px",
+      render: (parmas, record) => {
+        return (
+          <Col>
+            <a
+              href={parmas}
+              target="_blank"
+              title="Click to view"
+              class="hyper-link"
+              rel="noopener noreferrer"
+            >
+              <Text>View Resume</Text>
+            </a>
+          </Col>
+        );
+      },
+    },
+    {
+      title: "Skills",
+      dataIndex: "Skills",
+      key: "Skills",
+      width: "250px",
+      render: (parmas, record) => {
+        return (
+          <Col>
+            <Text>{parmas}</Text>
+          </Col>
+        );
       },
     },
     {
@@ -92,7 +124,7 @@ const Carriers = () => {
       },
     },
     {
-      title: "TotalExp",
+      title: "Total Experience",
       dataIndex: "TotalExp",
       key: "TotalExp",
       width: "250px",
@@ -105,7 +137,7 @@ const Carriers = () => {
       },
     },
     {
-      title: "RelevantExp",
+      title: "Relevant Experience",
       dataIndex: "RelevantExp",
       key: "RelevantExp",
       width: "250px",
@@ -131,7 +163,7 @@ const Carriers = () => {
       },
     },
     {
-      title: "ExpectedCTC",
+      title: "Expected CTC",
       dataIndex: "ExpectedCTC",
       key: "ExpectedCTC",
       width: "250px",
@@ -143,64 +175,44 @@ const Carriers = () => {
         );
       },
     },
-    {
-      title: "Skills",
-      dataIndex: "Skills",
-      key: "Skills",
-      width: "250px",
-      render: (parmas, record) => {
-        return (
-          <Col>
-            <Text>{parmas}</Text>
-          </Col>
-        );
-      },
-    },
-    {
-      title: "DocumentPath",
-      dataIndex: "ResumePath",
-      key: "ResumePath",
-      width: "250px",
-      render: (parmas, record) => {
-        return (
-          <Col>
-            <a href={parmas} target="_blank" rel="noopener noreferrer">
-              <Text>View File</Text>
-            </a>
-          </Col>
-        );
-      },
-    },
   ];
 
-  const handlePageChange = async (currPage) => {
-    const params = {
-      page: currPage,
-      ...(searchedValue && { search: searchedValue?.search }),
-    };
-    setCurrentPage(currPage);
-    await getCustomerOrderReportApi(params);
-  };
+  const [pageSize, setPageSize] = useState(25);
 
-  const handleSearchedValue = (params) => {
-    setSearchedValue(params);
-    setCurrentPage(1);
+  const handlePageChange = (page, pageSize) => {
+    setCurrentPage(page);
+    setPageSize(pageSize);
   };
+  const paginatedData = data?.slice(
+    (currentPage - 1) * pageSize,
+    currentPage * pageSize
+  );
 
+  const handleSearchedValue = (value) => {
+    setSearchValue(value);
+    const filtered = paginatedData?.filter((item) => {
+      return (
+        item?.FullName?.toLowerCase().includes(value.toLowerCase()) ||
+        item?.MobileNo?.includes(value) ||
+        item?.EmailId?.toLowerCase().includes(value.toLowerCase())
+      );
+    });
+    
+    setFilteredData(filtered);
+  };
   return (
     <Col className="SalesReport-wrapper">
       <Text className="heading">Job careers</Text>
       <Col style={{ display: "flex", gap: "1rem" }}>
-        <SearchInput
+        <Input
           size={"large"}
-          placeholder={"Search by customer name, mobile no, email"}
+          placeholder={"Search by name, mobile no, email"}
           width={"400px"}
-          getLibraryApi={getCustomerOrderReportApi}
-          handleSearchedValue={handleSearchedValue}
-          isLoading={isFetching}
+          onChange={(e) => handleSearchedValue(e.target.value)}
+          value={searchValue}
         />
       </Col>
-      <CustomTableWithPagination
+      {/* <CustomTableWithPagination
         className="order-list-table"
         tableDataSource={customerOrderReportData?._lstJobApplied}
         tableColumns={columns}
@@ -214,8 +226,23 @@ const Carriers = () => {
         itemsPerPage={30}
         totalEntries={
           !isFetching &&
-          customerOrderReportData?.data?.pagination?.total_entries
+          customerOrderReportData?._lstJobApplied?.total_entries
         }
+      /> */}
+      <Table
+        columns={columns}
+        dataSource={searchValue ? filteredData : paginatedData}
+        pagination={false}
+        scroll={{ x: "100%" }}
+        loading={isFetching}
+      />
+      <Pagination
+        current={currentPage}
+        pageSize={pageSize}
+        total={data?.length}
+        onChange={handlePageChange}
+        showSizeChanger
+        pageSizeOptions={["10", "20", "30", "40", "50"]}
       />
     </Col>
   );

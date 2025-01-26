@@ -152,10 +152,7 @@
   width: 100%;
   align-items: center !important;
 }
-.ant-menu-title-content
-{
-  margin-top: 4px;
-}
+
 .drawer-header
 {
   display: flex;

@@ -47,14 +47,14 @@ const ProfileDropdown = () => {
 
   const handleLogout = () => {
     localStorage.clear();
-    navigate("/Sellerlogin");
+    navigate("/login");
   };
   const handleAccounts = () => {
-    navigate("/seller/Accountsandsettings");
+    navigate("/Accountsandsettings");
   };
   // eslint-disable-next-line
   const handleChangePassword = () => {
-    navigate("/seller/changePassword");
+    navigate("/changePassword");
   };
   return (
     <Dropdown

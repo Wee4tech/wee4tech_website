@@ -44,7 +44,7 @@ export const SellerLayout = (props) => {
       > */}
         <Sidebar collapsed={collapsed} setCollapsed={setCollapsed} />
       {/* </Sider> */}
-        <Content style={{ overflow: 'initial' }} className="content-container"> {props.children}</Content>
+        <Content style={{ overflow: 'initial' }} className="content-ant "> {props.children}</Content>
       </Layout>
     </Layout>
   );
