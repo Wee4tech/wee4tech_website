@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="120" viewBox="0 0 166 120">
+    <g data-name="Group 8995">
+        <g data-name="Group 8996">
+            <path data-name="Path 45658" d="m477.879 375.23-42.967 11.08a1.592 1.592 0 1 1-.8-3.083l42.967-11.08a1.592 1.592 0 0 1 .8 3.083z" transform="translate(-402.923 -336.706)" style="fill:#f2f2f2"/>
+            <path data-name="Path 45659" d="m495.034 474.668-36.607 9.44a1.592 1.592 0 1 1-.8-3.083l36.607-9.44a1.592 1.592 0 0 1 .8 3.083z" transform="translate(-421.766 -416.39)" style="fill:#f2f2f2"/>
+            <path data-name="Path 45660" d="m508.147 492.6-42.967 11.08a1.592 1.592 0 1 1-.8-3.083l42.967-11.08a1.592 1.592 0 0 1 .8 3.083z" transform="translate(-427.178 -430.762)" style="fill:#f2f2f2"/>
+            <path data-name="Path 45664" d="M523.512 209.052h-74.758a9.571 9.571 0 0 0-9.56 9.56v87.782a9.571 9.571 0 0 0 9.56 9.56h74.759a9.571 9.571 0 0 0 9.56-9.56v-87.782a9.571 9.571 0 0 0-9.56-9.56z" transform="translate(-407.948 -206.052)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45665" d="M534.614 222.906h-74.759a6.816 6.816 0 0 0-6.808 6.808V317.5a6.816 6.816 0 0 0 6.808 6.808h74.759a6.816 6.816 0 0 0 6.808-6.808v-87.786a6.816 6.816 0 0 0-6.808-6.808z" transform="translate(-419.051 -217.154)" style="fill:#fff"/>
+            <path data-name="Path 45667" d="M648.082 452.871h-37.8a1.592 1.592 0 1 1 0-3.184h37.8a1.592 1.592 0 1 1 0 3.184z" transform="translate(-543.769 -398.883)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45668" d="M654.649 479.919h-44.372a1.592 1.592 0 1 1 0-3.184h44.372a1.592 1.592 0 0 1 0 3.184z" transform="translate(-543.769 -420.558)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45669" d="M648.082 574.085h-37.805a1.592 1.592 0 0 1 0-3.184h37.805a1.592 1.592 0 0 1 0 3.184z" transform="translate(-543.768 -496.016)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45670" d="M654.649 601.132h-44.372a1.592 1.592 0 0 1 0-3.184h44.372a1.592 1.592 0 0 1 0 3.184z" transform="translate(-543.768 -517.691)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45671" d="M517.024 450.845h-13.379a.764.764 0 0 1-.763-.763v-11.91a.764.764 0 0 1 .763-.763h13.379a.764.764 0 0 1 .763.763v11.909a.764.764 0 0 1-.763.764z" transform="translate(-458.985 -389.043)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45672" d="M517.024 572.058h-13.379a.764.764 0 0 1-.763-.763v-11.91a.764.764 0 0 1 .763-.763h13.379a.764.764 0 0 1 .763.763v11.909a.764.764 0 0 1-.763.764z" transform="translate(-458.985 -486.177)" style="fill:#e6e6e6"/>
+            <path data-name="Path 45673" d="M688.36 317.937h-27.872a1.592 1.592 0 0 1 0-3.184h27.872a1.592 1.592 0 0 1 0 3.184z" transform="translate(-584.005 -290.755)" style="fill:#ccc"/>
+            <path data-name="Path 45674" d="M694.927 344.984h-34.44a1.592 1.592 0 0 1 0-3.184h34.44a1.592 1.592 0 1 1 0 3.184z" transform="translate(-584.005 -312.429)" style="fill:#ccc"/>
+            <path data-name="Path 45675" d="M529.129 303.555h-25.7a.764.764 0 0 1-.763-.763v-20.054a.764.764 0 0 1 .763-.763h25.7a.764.764 0 0 1 .763.763v20.054a.764.764 0 0 1-.763.763z" transform="translate(-458.815 -264.488)" style="fill:#6c7c8c"/>
+            <g data-name="Ellipse 828" transform="translate(87.318 68.531)" style="stroke:#e6e6e6;stroke-width:2px;fill:#fff">
+                <circle cx="23.989" cy="23.989" r="23.989" style="stroke:none"/>
+                <circle cx="23.989" cy="23.989" r="22.989" style="fill:none"/>
+            </g>
+            <g data-name="Group 8996">
+                <g data-name="Group 8971">
+                    <g data-name="Rectangle 8476" transform="translate(106.042 83.743)" style="stroke-linecap:round;stroke-linejoin:round;stroke:#707070;fill:#fff">
+                        <rect width="1.755" height="18.723" rx=".878" style="stroke:none"/>
+                        <rect x=".5" y=".5" width=".755" height="17.723" rx=".378" style="fill:none"/>
+                    </g>
+                    <path data-name="Polygon 48" d="M5.387 1.161a.5.5 0 0 1 .928 0l5.112 12.781a.5.5 0 0 1-.464.686H.739a.5.5 0 0 1-.464-.686z" transform="rotate(90 19.341 103.084)" style="fill:#bf2600"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

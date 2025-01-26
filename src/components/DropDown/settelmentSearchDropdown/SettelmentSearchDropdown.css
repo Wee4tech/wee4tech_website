@@ -1,0 +1,52 @@
+.text-input {
+  color: #0a243f;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+.phone-number-input {
+  color: #0a243f;
+  font-size: 16px;
+  font-weight: normal;
+  display: block;
+}
+.footer-search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 35px;
+  color: #2973f0;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.list-container {
+  min-height: 80px;
+  max-height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.no-data-container {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.no-data-text {
+  color: #0a243f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.selected-menu-list {
+  background-color: #fff !important;
+}
+.selected-menu-list:hover {
+  background-color: #0000000a !important;
+}
+.remove-value {
+  color: #2973f0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}

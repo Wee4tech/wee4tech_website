@@ -1,0 +1,42 @@
+.input-style .ant-input-wrapper .ant-input {
+  height: 38px;
+  text-align: right;
+}
+.input-style .ant-input {
+  text-align: right;
+}
+
+.input-style {
+  border-radius: 8px;
+  height: 38px;
+  border: 1px solid #bac7d5;
+  box-shadow: none;
+  text-align: right;
+}
+
+.input-style:hover,
+.input-style:active,
+.input-style:focus,
+.input-style:visited {
+  border: 1.5px solid #0a243f !important;
+  box-shadow: none;
+}
+.border-red-input:hover,
+.border-red-input:active,
+.border-red-input:focus,
+.border-red-input:visited {
+  border: 1.5px solid #f0483e !important;
+  box-shadow: none;
+}
+.border-red-input {
+  border: 1px solid #f0483e;
+}
+.custom-table-input-container {
+  position: relative;
+}
+.error-text {
+  color: #f0483e;
+  display: block;
+  font-size: 10px;
+  position: absolute;
+}

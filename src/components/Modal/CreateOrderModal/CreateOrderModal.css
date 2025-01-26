@@ -1,0 +1,9 @@
+.hsn-main-container > h1 {
+  margin: 0 !important;
+}
+.hsn-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0px;
+}

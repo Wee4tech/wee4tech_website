@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g data-name="Refresh icon">
+        <g data-name="Group 14483">
+            <g data-name="Group 14482">
+                <path data-name="Path 46952" d="M32.674 0A.679.679 0 0 0 32 .679v2.478A8.8 8.8 0 0 0 17.067 9.5a.679.679 0 1 0 1.357 0 7.464 7.464 0 0 1 12.97-5.038l-3.006 1a.679.679 0 1 0 .429 1.289L32.888 5.4a.679.679 0 0 0 .464-.646V.679A.679.679 0 0 0 32.674 0z" transform="translate(-16.066 .5)" style="stroke:#000;stroke-width:.5px"/>
+            </g>
+        </g>
+        <g data-name="Group 14485">
+            <g data-name="Group 14484">
+                <path data-name="Path 46953" d="M66.805 221.867a.679.679 0 0 0-.679.679 7.464 7.464 0 0 1-12.97 5.038l3.006-1a.679.679 0 0 0-.429-1.289l-4.071 1.357a.679.679 0 0 0-.464.646v4.071a.679.679 0 0 0 1.357 0v-2.479a8.8 8.8 0 0 0 14.929-6.343.678.678 0 0 0-.679-.68z" transform="translate(-48.84 -212.546)" style="stroke:#000;stroke-width:.5px"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+.LibraryWorkingModal .ant-modal-header {
+  border-bottom: 1px solid #f1f1f2;
+  margin-bottom: 0px;
+}
+.head-container {
+  padding: 20px;
+}
+.heading {
+  color: #0a243f;
+  display: block;
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.paragraph {
+  color: #0a243f;
+  display: block;
+  font-size: 14px !important;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 2px solid #dedede;
+}
+.sub1 {
+  width: 79%;
+  margin-bottom: 10px;
+}
+.sub1 .heading {
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.sub2 {
+  /* width: 30%; */
+}

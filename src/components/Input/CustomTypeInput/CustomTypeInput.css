@@ -1,0 +1,24 @@
+.edit-input-style {
+  border-radius: 8px;
+  height: 3rem;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.edit-input-style:hover,
+.edit-input-style:active,
+.edit-input-style:focus,
+.edit-input-style:visited {
+  border: 1.5px solid transparent;
+  box-shadow: none;
+}
+
+/* .input-style */
+:where(.css-dev-only-do-not-override-byeoj0).ant-input-status-error:not(
+    .ant-input-disabled
+  ):not(.ant-input-borderless).ant-input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #bf2600;
+  background-color: #ffebe6;
+}

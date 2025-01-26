@@ -1,0 +1,24 @@
+.ant-modal .ant-modal-content {
+  padding: 0px;
+}
+.ant-modal-header {
+  padding: 18px;
+  border-bottom: 12px solid #f1f1f2;
+  margin-bottom: 20px;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0354a3 !important;
+  border-color: #0354a3 !important;
+}
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #0354a3 !important;
+}
+.ant-checkbox-input:checked + .ant-checkbox-inner {
+  border-color: #0354a3 !important;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-checkbox-checked:after {
+  border: 2px solid #0354a3 !important;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  border-color: #0354a3 !important;
+}

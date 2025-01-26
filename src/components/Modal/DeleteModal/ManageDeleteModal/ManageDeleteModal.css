@@ -1,0 +1,41 @@
+.container-modal {
+  padding: 24px;
+}
+.outer-text {
+  font-size: 14px;
+  font-weight: normal;
+  color: #0a243f;
+}
+.inner-text {
+  font-weight: 500;
+  color: #0a243f;
+}
+.delete-button {
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  color: white;
+  background-color: #bf2600;
+}
+.delete-button:hover {
+  color: #fff !important;
+}
+.manage-delete-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border-top: 1px solid #dedede; */
+  /* border-radius: 0px 0px 16px 16px; */
+  height: 96px;
+  /* box-shadow: 0 -6px 10px 0 rgba(0, 0, 0, 0.1); */
+  background-color: #fff;
+}
+.cancel-button {
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  max-width: 120px;
+  width: 100%;
+}

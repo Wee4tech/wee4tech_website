@@ -1,0 +1,6 @@
+.text-area-style,
+.text-area-style:focus {
+  border: none;
+  box-shadow: none;
+  resize: none !important;
+}

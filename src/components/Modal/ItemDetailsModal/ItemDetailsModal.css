@@ -1,0 +1,8 @@
+.collapse-style .ant-collapse-header-text {
+  color: #0a243f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.carousel-modal .ant-modal .ant-modal-content {
+  width: 600px !important;
+}

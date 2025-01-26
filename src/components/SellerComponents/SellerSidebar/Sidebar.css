@@ -1,0 +1,172 @@
+/* :where(.css-dev-only-do-not-override-txh9fw).ant-menu-inline-collapsed >.ant-menu-submenu>.ant-menu-submenu-title {
+    padding-inline: 13px;
+}
+
+.ant-menu-submenu-vertical .ant-menu-submenu-title {
+    padding: 13px;
+}
+ .ant-menu-submenu-inline > .ant-menu-submenu-title{
+    padding-left: 13px !important;
+} */
+/* .ant-menu-submenu-title {
+  padding-left: 12px !important;
+} */
+.ant-drawer-mask
+{
+  /* /* display: none; */
+  z-index: -999 !important;
+}
+.ant-layout-header {
+  background: transparent;
+  height: auto;
+  line-height: inherit;
+ padding: 0;
+}
+.layout-dashboard .header-control {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.font-weight-bold 
+{
+  font-weight: 600;
+}
+.today-style
+{
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0a243f;
+}
+
+/* Default styles for all devices */
+
+/* Styles for devices with a maximum width of 480px (typical smartphones) */
+@media only screen and (max-width: 480px) {
+  /* Your CSS rules for smartphones */
+  .ant-layout-sider.ant-layout-sider-light
+  {
+    z-index: 9999;
+    display: block;
+    position: fixed;
+    top:0 !important
+  }
+  .ant-layout-sider.ant-layout-sider-light.ant-layout-sider-collapsed
+  {
+    max-width: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    flex: 0 0 0px !important;
+    max-width: 0px !important;
+    min-width: 0px !important;
+    width: 0px !important;
+  }
+  .layout-dashboard .header-control {
+   
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+  }
+  .ant-drawer-mask
+{
+  display: block !important;
+  z-index: 999 !important;
+}
+}
+
+/* Styles for devices with a maximum width of 768px (typical tablets) */
+@media only screen and (max-width: 768px) {
+  /* Your CSS rules for tablets */
+  .ant-drawer-mask
+{
+  display: block !important;
+}
+}
+
+/* Styles for devices with a maximum width of 1024px (small desktops and tablets in landscape) */
+@media only screen and (max-width: 1024px) {
+  /* Your CSS rules for small desktops and tablets in landscape */
+  .ant-drawer-mask
+{
+  display: block !important;
+}
+}
+
+/* Styles for devices with a maximum width of 1280px (larger desktops) */
+@media only screen and (max-width: 1280px) {
+  /* Your CSS rules for larger desktops */
+}
+ .ant-layout-content { 
+  margin: 20px;
+}
+.ant-card
+{
+  /* margin: 32px 25px 24px 180px; */
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #eaeaea;
+  background-color: #fff;
+}
+.rowgap-vbox
+{
+  row-gap: 26px !important;
+}
+.mb-20
+{
+  margin-bottom: 20px;
+}
+
+.support-text{
+  border-top: 8px solid #f1f1f2;
+
+  padding: 10px 20px;
+}
+.support-style-text
+{
+  color: #0a243f !important;
+  font-size: 16px;
+}
+.mail-top-style ,.telephone-number-left
+{
+  color: #0a243f !important;
+  font-size: 16px;
+}
+.left-sidebar
+{
+  top:0;
+  bottom: 0;
+}
+.d-none {
+  display: none !important;
+}
+
+.ant-menu-item.ant-menu-item-selected
+{
+  display: flex;
+  width: 100%;
+  align-items: center !important;
+}
+.ant-menu-title-content
+{
+  margin-top: 4px;
+}
+.drawer-header
+{
+  display: flex;
+    flex: 0;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+}
+.ant-menu-item-selected > svg
+{
+fill: #fff !important;
+}

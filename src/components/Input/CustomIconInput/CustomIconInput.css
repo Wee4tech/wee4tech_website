@@ -1,0 +1,54 @@
+.input-icon .ant-input-wrapper .ant-input {
+  height: 38px;
+  text-align: right;
+}
+.input-icon .ant-input {
+  text-align: right;
+}
+
+.input-icon {
+  border-radius: 8px;
+  height: 38px;
+  border: 1px solid #bac7d5;
+  border-radius: 8px 0 0 8px;
+  box-shadow: none;
+  text-align: right;
+  width: 70%;
+}
+
+.input-icon:hover,
+.input-icon:active,
+.input-icon:focus,
+.input-icon:visited {
+  /* border: 1.5px solid #0a243f !important; */
+  /* border-right: 1px solid #bac7d5 !important; */
+  box-shadow: none;
+}
+.main-container {
+  display: flex;
+  width: 100%;
+}
+.icon-tag {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bac7d5;
+  border-left: 0;
+  border-radius: 0px 8px 8px 0;
+  cursor: pointer;
+}
+.main-container:hover,
+.main-container:active,
+.main-container:focus,
+.main-container:visited {
+  border: 1.5px solid #0a243f !important;
+  border-radius: 8px;
+}
+
+.ant-tooltip-inner {
+  color: #0a243f !important;
+}
+.tooltip-style {
+  /* width: 200px; */
+}

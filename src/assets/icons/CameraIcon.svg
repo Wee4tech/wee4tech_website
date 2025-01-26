@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="24" viewBox="0 0 25.5 24">
+    <g data-name="Group 8687">
+        <g data-name="camera (4)" transform="translate(-.25 -1)">
+            <path data-name="Path 35839" d="M25 20.455a2.182 2.182 0 0 1-2.182 2.182H3.182A2.182 2.182 0 0 1 1 20.455v-12a2.182 2.182 0 0 1 2.182-2.182h4.363L9.727 3h6.545l2.182 3.273h4.364A2.182 2.182 0 0 1 25 8.455z" style="fill:none;stroke:#6c7c8c;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+            <circle data-name="Ellipse 383" cx="4.364" cy="4.364" r="4.364" transform="translate(8.636 9.545)" style="fill:none;stroke:#6c7c8c;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        </g>
+    </g>
+</svg>

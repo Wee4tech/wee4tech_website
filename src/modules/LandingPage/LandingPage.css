@@ -1,0 +1,23 @@
+.layout {
+  min-height: 100vh;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  line-height: 64px;
+  margin-right: 20px;
+}
+
+#about, #services, #testimonials, #clients {
+  padding: 20px;
+}
+
+#clients img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 10px 0;
+}

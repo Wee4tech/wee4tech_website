@@ -1,0 +1,44 @@
+.container-modal {
+  display: flex;
+  padding: 0 24px 24px 24px;
+  gap: 20px;
+  align-items: center;
+}
+.text-container-modal {
+  display: flex;
+  flex-direction: column;
+}
+.text-1 {
+  display: block;
+  color: #0a243f;
+  font-size: 16px;
+  font-weight: bold;
+}
+.text-2 {
+  display: block;
+  color: #6c7c8c;
+  font-size: 14px;
+  font-weight: normal;
+}
+.modal-container-2 {
+  padding: 24px;
+}
+.text-contact {
+  color: #6c7c8c;
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 10px;
+}
+.name-text {
+  display: block;
+  color: #0a243f;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.text-phone-number {
+  color: #0a243f;
+  font-size: 24px;
+  font-weight: 500;
+}

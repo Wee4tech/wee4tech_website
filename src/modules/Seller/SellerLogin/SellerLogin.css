@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+    .left-section {
+      display: none !important;
+    } 
+   
+  }
+  .Seller-login-conatiner
+  {
+    /* padding: 20px 26px; */
+    /* // maxWidth: "420px", */
+    width: 420px;
+    /* // height: "430px", */
+    box-shadow:  0 13px 36px 0 rgba(0, 0, 0, 0.16);
+    border-radius:  16px;
+    margin: auto,
+  }
+  .custom-input
+  {
+    height: 40px;
+  }
+  .bmp-box
+  {
+    border-radius: 16px;
+  background-color: #119bce;
+  padding: 26.2px 8.8px 25.6px 8.6px;
+  color: #fff !important;
+  font-weight: 500 !important;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+ .custom-ddl
+ {
+  border-radius: 6px !important;
+ }
+ .custom-ddl .ant-space
+ {
+  justify-content: space-between !important;
+  font-weight: 400 !important;
+  width: 100%;
+ }
+ .border-bottom-seller:not(:last-child)
+ {
+  border-bottom: solid 1px #b9c7d5 !important;
+  padding-bottom: 20px;
+ }
+ .input-error
+ {
+  border-color: #ff4d4f;
+ }
+ .footer-class
+ {
+  box-shadow: 0 -6px 10px 0 rgba(0, 0, 0, 0.1);
+      padding: 20px 26px 0px;
+ }
+ .custom-ddl .ant-space-item
+ {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;    
+ }
+ .fix-height
+ {
+  overflow-y : scroll;
+  height: 500px;
+  width: 100%;
+  padding: 20px 26px;
+ }
+ .new-seller-reg
+ {
+  margin-top: 1rem;
+  box-shadow: 0 -6px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px 26px;
+ }

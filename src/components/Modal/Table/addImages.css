@@ -1,0 +1,8 @@
+.add_image .ant-modal-header{
+    border-bottom: 1px solid #dedede !important ;
+    border-radius: 16px 16px 0 0 !important;
+}
+.ant-modal .ant-modal-content{
+    padding: 0px;
+    border-radius: 16px ;
+}

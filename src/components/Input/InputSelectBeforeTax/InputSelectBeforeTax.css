@@ -1,0 +1,41 @@
+.container-list {
+  display: flex;
+  justify-content: space-between;
+}
+.select-text {
+  color: #0a243f;
+  font-size: 14px;
+  font-weight: 500;
+}
+.select-dropdown-before {
+  height: 32px;
+}
+.select-input-before {
+  text-align: right !important;
+  padding: 0 8px 0 0;
+}
+.rp_price_container {
+  padding: 6px 0px 4px 4px;
+}
+.rp_price_text {
+  background-color: #ef6500;
+  color: #fff;
+  padding: 4px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.sp_price_container {
+  padding: 6px 0px 4px 4px;
+}
+.sp_price_text {
+  background-color: #0354a3;
+  color: #fff;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 6px;
+}
+.before_prefix_container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,36 @@
+.create-modal-container {
+  height: 200px;
+  padding: 24px;
+}
+.create-modal-recommed-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a243f;
+}
+.create-modal-recommed-text-2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a243f;
+  opacity: 0.7;
+}
+.create-modal-recommed-text-3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a243f;
+  opacity: 0.7;
+}
+.create-modal-sub-container {
+  margin-bottom: 10px;
+}
+.cancel-order-button {
+  color: rgb(191, 38, 0);
+  border-color: rgb(191, 38, 0);
+  height: 46px;
+  padding: 0 24px;
+  font-weight: 500;
+}
+.cancel-order-button:hover {
+  opacity: 0.8;
+  color: rgb(191, 38, 0) !important;
+  border-color: rgb(191, 38, 0) !important;
+}

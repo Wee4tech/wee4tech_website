@@ -1,0 +1,599 @@
+/* Apply styles for mobile devices */
+@media only screen and (max-width: 768px) {
+    .ant-tabs-nav-list .ant-tabs-tab {
+        padding: 12px !important;
+        color: #6c7c8c;
+        background: #f1f1f2;
+        border-radius: 8px;
+        font-size: 12px !important;
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active {
+
+        color: #fff !important;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+        background-color: #0a243f;
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active>.ant-tabs-tab-btn {
+        color: #fff !important;
+        font-size: 12px !important;
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active>.ant-tabs-tab-btn>span>.order-badge-rounded {
+        background: #fff !important;
+        color: #0a243f;
+    }
+
+    .card-title.seller-title-text {
+        font-size: 12px !important;
+    }
+
+    .card-title>span>.status-tag-style,
+    .tag-font-style {
+        font-size: 12px !important;
+        height: 24px !important;
+        padding: 1px 6px !important;
+        margin: 0px !important;
+        float: right;
+    }
+
+    .status-waiting {
+        font-size: 12px !important;
+        height: 24px;
+        padding: 1px 12px;
+        margin-left: 10px !important;
+        margin-top: 0px !important;
+        float: right;
+    }
+
+    .item-style-process,
+    .item-number-style,
+    .total-bold-style,
+    .how-to-use span,
+    .how-to-use,
+    .detail-heading,
+    .deliveryBy-items span {
+        font-size: 12px !important;
+    }
+
+    .accept-btn-style.btnI,
+    .detail-btn,
+    .detail-btn.btn-primary,
+    .view-detail-btn,
+    .ant-btn-lg,
+    .ant-btn-default,
+    .btnI,
+    .btn-request,
+    .vehicle-submit-btn,
+    .vehicle-add-button,.ant-btn-default,.ant-btn-primary,.btn-outline-danger,.btn-success,.btn-height-style {
+        height: 40px !important;
+        padding: 10px 22px 12px !important;
+        font-size: 12px !important;
+    }
+
+    .ant-avatar-circle {
+        width: 32px !important;
+        height: 32px !important;
+        font-size: 18px;
+        line-height: 32px !important;
+    }
+    .mob-credit-black
+    {
+        width: 100% !important;
+    }
+
+    .ant-table-cell,
+    .ant-table-cell a,
+    .ant-table-cell div,
+    .ant-table-cell span,
+    .ant-table-footer .deliveryBy-align-amount ,.banner-subtitle{
+        font-size: 12px !important;
+    }
+
+    .deliveryBy-wrapper {
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 12px !important;
+        font-size: 12px !important;
+    }
+
+    .deliveryBy-wrapper>.ant-col>span.ant-avatar-square {
+        width: 44px !important;
+        height: 44px !important;
+        line-height: 44px !important;
+
+    }
+
+    .deliveryBy-text {
+        font-size: 16px !important;
+    }
+
+    .ant-table-cell-fix-left-last {
+        position: relative !important;
+    }
+
+    .profile-dropDown-wrapper {
+        padding: 0px !important;
+    }
+
+    .profile-dropDown-wrapper>span,
+    .info-box-text-inner {
+        font-size: 12px !important;
+    }
+
+    .Seller-login-conatiner {
+        width: 400px !important;
+        box-shadow: unset !important;
+    }
+    .footer-class,.new-seller-reg
+    {
+        box-shadow: unset !important;
+    }
+    .rowgap-vbox {
+        row-gap: 24px !important;
+    }
+
+    .card-disabled .ant-card .ant-card-body,
+    .card-padding .ant-card .ant-card-body {
+        padding: 12px !important;
+    }
+
+    .order-got-btn-style {
+        padding: 10px 40px !important;
+    }
+
+    /* .info-box
+    {
+        height: 140px !important;
+    } */
+    .info-box .info-box-text,
+    .fixed-font,
+    .ant-dropdown-trigger,
+    .vehicle-disc-key,.tag-text-heading {
+        font-size: 12px !important;
+    }
+
+    .info-box-bottom {
+        padding-top: 0px !important;
+    }
+
+    .info-box-top {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .sorter_heading {
+        word-break: normal !important;
+    }
+
+    .table-fixed table {
+        table-layout: fixed !important;
+    }
+
+  .tag-main-container-payable
+  {
+    padding: 12px !important;
+  }
+.ml-4
+{
+    margin-left: 10px !important;
+}
+    .settlementWrapper .ant-tabs-tab {
+        margin-right: 0px !important;
+    }
+
+    .padding-0 {
+        padding: 0px !important;
+    }
+
+    .formatted-date {
+        display: block;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .ant-input-suffix svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .h-scroll {
+        overflow-x: scroll;
+        margin-top: 10px;
+    }
+
+   
+    .vehicle-submit-btn {
+        width: 100% !important;
+    }
+
+    .vehicle-request-wrapper {
+        flex-flow: row !important;
+    }
+
+    .add-vehicle-type-request {
+        padding: 0px !important;
+        border: 0px !important;
+    }
+
+    .ant-modal-title,.mobcredit-applynow {
+        font-size: 14px !important;
+    }
+.tag-text
+{
+    font-size: 14px !important;
+}
+.mobcredit-banner
+{
+display: inline-flex !important;
+}
+    .vehicle-icon  {
+        width: 40px !important;
+    }
+    .btn-dashboard
+    {
+        width: 160px !important;
+        height: 70px !important;
+        padding: 20px !important;
+    }
+    .viewall-button
+    {
+        padding: 10px 19px 10px 10px !important;
+        font-size: 14px !important;
+    }
+    .order-list .ant-card .ant-card-body
+    {
+        padding: 12px !important;
+    }
+    .ant-input-affix-wrapper-lg ,.ant-select.select-default-style,.date-picker-container
+    {
+        height: 40px !important;
+    }
+    .text-I
+    {
+        font-size: 16px !important;
+
+    }
+    .date-picker-container .ant-picker
+    {
+padding-top: 0px !important;
+    }
+    .right-banner img {
+        height: 110px;
+        width: 150px;
+    }
+    .sticky-col-inner
+    {
+        display: inline !important;
+    }
+    .btn-add-item
+    {
+        padding: 10px 10px 10px !important;
+    }
+    .ant-input-affix-wrapper-lg
+    {
+        font-size: 14px !important;
+    }
+    .ant-dropdown .ant-dropdown-menu
+    {
+        width: 100% !important;
+    }
+    .font-big-bold
+    {
+        font-weight: 500 !important;
+         font-size: 16px !important; 
+    }
+    .status-tag-style
+    {
+        font-size: 12px !important;
+        padding: 1px 8px -1px !important;
+        margin: 0px 0px 0px 4px !important;
+    }
+    .status-card-main-container
+    {
+width: 100% !important;
+margin-top: 20px;
+    }
+    .drawer-header
+    {
+        border-bottom: 2px solid #f1f1f2 !important;
+    }
+    /* .ant-menu-item
+    {
+        font-size: 14px !important;
+    }
+    .ant-menu-item i svg{
+        width: 16px;
+        height: 16px;
+    } */
+     .support-style-text , .staticcontent  a
+     {
+        font-size: 14px !important;
+     }
+     .ant-select-single
+{
+  height: 40px !important;
+}
+.task-bar
+{
+    display: inline !important;
+    width: 100% !important;
+   
+}
+.task-bar .ant-select-auto-complete
+{
+width: 100% !important;
+margin-bottom: 10px !important;
+}
+.accept-btn-style.btnI{
+    justify-content: space-between;
+}
+.support-style-text
+{
+    font-family: Inter !important;
+    color: #0a243f;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn.btn-primary.register-now-outline
+{
+    top: 0px !important;
+}
+.register-topbutton
+{
+    margin-top: 30px !important;
+}
+.d-flex-colum
+{
+    flex-direction: column;
+
+}
+.d-flex-colum .ant-input-affix-wrapper
+{
+width: 100% !important;
+}
+.action-sub-container
+{
+    justify-content: space-between;
+}
+.Seller-login-card
+{
+    height: auto !important;
+    margin-top: 20px;
+}
+.no-records
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.no-records-small
+{
+    font-size: 12px;
+    font-weight: 500;
+}
+.no-order-data-wrapper{
+    height: 40vh !important;
+}
+.text-caption
+{
+  font-size: 14px;
+  font-weight: 600;
+}
+.text-detail
+{
+  font-size: 14px;
+  color: #0a243f;
+}
+.text-heading
+{
+    font-size: 16px !important;
+}
+.card-right-payment
+{
+    width: 100% !important;
+}
+.col-right
+{
+    text-align:  left !important;
+}
+.address-card
+{
+    display: block !important;
+}
+.card-order-summary .ant-card-body
+{
+padding: 0px !important;
+}
+.new-seller-reg
+{
+    margin-top: 0px !important;
+    padding: 10px 20px !important;
+}
+.fix-height
+{
+    overflow-y : scroll;
+    /* height: 250px !important; */
+    width: 100%;
+    padding: 20px 20px !important;
+}
+.txt-getstarted,.text-heading-sm,.collapse-section .ant-collapse-header-text
+{
+    font-size: 16px !important;
+}
+.text-heading-sm-details
+{
+    margin-bottom: 25px;
+}
+.content-container
+{
+    padding: 20px !important;
+}
+.custom-bottom-margin
+{
+    margin-bottom: 80px !important;
+}
+.money-hand
+{
+    top: -50px !important;
+    width: 40% !important;
+}
+.card-content-expect .ant-card-body
+{
+    justify-content: flex-start !important;
+}
+.card-content-expect .ant-card-body svg
+{
+    width: 21px;
+    height: 32px;
+}
+.btn-common
+{
+    height: 40px !important;
+}
+.btn-common span
+{
+    font-size: 12px !important;
+}
+.img-kyc
+{
+    width: 140px;
+    height: 90px;
+}
+.text-heading-sm-details{
+    font-size: 12px !important;
+}
+h4.ant-typography
+{
+    font-size: 14px !important;
+    margin-bottom: 0px;
+}
+h5.ant-typography,.text-subhead-font-owner,.ant-upload-wrapper
+{
+    font-size: 12px !important;
+    
+}
+h3.ant-typography,.text-comission,.text-head-white-big,.text-price-big,.available-text-active
+{
+    font-size: 16px !important;
+}
+.card-credit-section .ant-card-body .credit-icon
+{
+    width: 108px;
+    height: 28px;
+}
+.price-text-alignments
+{
+    text-align: left !important;
+}
+.india-flag-icon
+{
+    width: 22px;
+    height: 16px;
+}
+.text-head-font, .chk-text span,.text-heading-sm,.text-head-white,.custom-collapse-terms .ant-collapse-header-text,.txt-outofstock
+{
+    font-size: 14px !important;
+}
+.text-subhead-font,.made-india,.backed-text,.text-comission-sub,.text-price-save,.font-com-text,.custom-tab-terms .ant-tabs-tab-btn,
+.txt-outofstock-sm,.credit-strip-font,.available-heading-text-active
+{
+    font-size: 12px !important;
+}
+.document-strip .ant-card-body
+{
+    padding: 0px !important;
+}
+.fixed-height-card
+{
+    height: 100%  !important;
+}
+.text-address-tag span
+{
+   font-size: 14px !important;
+}
+.btn-viewcatalogue
+{
+    height: 40px  !important;
+}
+.custome-ml
+{
+    margin-left:-65px !important;
+}
+.ant-upload-wrapper .ant-upload-list .ant-upload-list-item .ant-upload-list-item-name
+{
+    width: 250px !important;
+}
+.mob-credit-card-wrapper
+{
+  width: 100% !important;
+}
+.full-card-width
+{
+  width: 100% !important;
+}
+.top-banner-section
+{
+    padding-top: 48px !important;
+}
+.main-common-padding
+{
+    padding: 40px 0px 24px !important;
+}
+.home-collapse .ant-collapse-item
+{
+    margin: 16px 16px 16px !important;
+    padding: 24px 12px !important;
+}
+}
+.no-order-records
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a243f;   
+    margin-top: 20px;
+}
+.no-order-records-small
+{
+    color: #0a243f;
+    font-size: 14px;
+    font-weight: 500;    
+    margin-top: 10px;
+}
+.col-right
+{
+    text-align:  right;
+    margin-top: 10px;
+}
+.content-container
+{
+    padding: 0% 0% 5% 20%;
+}
+/* Apply styles for desktop devices */
+@media only screen and (min-width: 769px) {
+    /* styles here */
+}
+/*Tab View*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* styles here */
+    .online-store,.cls-top-seller-menu
+    {
+        font-size: 12px !important;
+    }
+    .info-box .info-box-text,
+    .fixed-font,
+    .ant-dropdown-trigger,
+    .vehicle-disc-key,.tag-text-heading {
+        font-size: 13px !important;
+    }
+    .info-box-number.new-addnumber
+    {
+        font-size: 18px !important;
+    }
+    .icon-box svg
+    {
+height: 42px !important;
+    }
+}
+

@@ -1,0 +1,9 @@
+.search-input-style:hover,
+.search-input-style:active,
+.search-input-style:focus,
+.search-input-style:visited,
+.search-input-style,
+.search-input-style:focus-within {
+  border: 2px solid #0a243f !important;
+  box-shadow: none;
+}

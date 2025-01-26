@@ -1,0 +1,16 @@
+.date-range-picker {
+  border: 1px solid black;
+}
+
+.date-range-picker:hover,
+.date-range-picker:active,
+.date-range-picker:focus,
+.date-range-picker:visited,
+.date-range-picker:focus-within {
+  border: 1px solid #0a243f !important;
+  box-shadow: none;
+}
+
+.date-range-picker .ant-picker-active-bar {
+  color: #0a243f;
+}

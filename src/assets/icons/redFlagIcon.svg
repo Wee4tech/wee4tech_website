@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g data-name="Group 14567">
+        <g data-name="Group 8971">
+            <g data-name="Rectangle 8476" transform="translate(2)" style="stroke:#707070;stroke-linecap:round;stroke-linejoin:round;fill:#fff">
+                <rect width="1.5" height="16" rx=".75" style="stroke:none"/>
+                <rect x=".5" y=".5" width=".5" height="15" rx=".25" style="fill:none"/>
+            </g>
+            <path data-name="Polygon 48" d="M4.536 1.161a.5.5 0 0 1 .928 0l4.262 10.653a.5.5 0 0 1-.464.686H.739a.5.5 0 0 1-.464-.686z" transform="rotate(90 8 8)" style="fill:#bf2600"/>
+        </g>
+    </g>
+</svg>

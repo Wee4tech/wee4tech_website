@@ -1,0 +1,9 @@
+.time-picker-style {
+  width: 100%;
+  height: 38px;
+  border: none;
+}
+.time-picker-style:hover {
+  border-color: #fff;
+  box-shadow: none;
+}

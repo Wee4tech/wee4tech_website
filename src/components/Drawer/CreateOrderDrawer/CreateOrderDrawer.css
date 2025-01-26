@@ -1,0 +1,109 @@
+.create-order-drawer {
+  /* width: 400px !important; */
+  border-radius: 20px 0 0 20px;
+}
+.drawer-head-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.drawer-cross-container {
+  width: 48px;
+  height: 48px;
+  padding: 16px;
+  border-radius: 24px;
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+.drawer-input-search {
+}
+.drawer-input-search {
+  margin-bottom: 25px;
+}
+.fillter-container {
+  display: flex;
+  gap: 20px;
+}
+.create-order-drawer .ant-drawer-wrapper-body .ant-drawer-header {
+  border-bottom: 8px solid #e8e8e8;
+}
+.create-order-drawer .ant-drawer-wrapper-body .ant-drawer-body {
+  padding: 10px 0 0 0;
+}
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e8e8e8;
+  color: #f2f8fd;
+}
+.drawer-avatar-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.drawer-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-name {
+  color: #0a243f;
+  font-size: 14px;
+  font-weight: 500;
+  width: 80%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.text-price {
+  color: #0a243f;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.code-container {
+  display: flex;
+  gap: 20px;
+}
+.code-text {
+  color: #6c7c8c;
+  font-size: 14px;
+  font-weight: normal;
+}
+.drawer-button {
+  background-color: #0354a3;
+  color: #fff;
+  width: 70px;
+  height: 40px;
+  width: 70px;
+  border-radius: 8px;
+}
+.no-product-container {
+  padding: 16px 24px 16px 26px;
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.no-product-container-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a243f;
+}
+.no-product-container-button {
+  height: 44px;
+  padding: 0px 20px;
+  color: #fff;
+  background-color: #0354a3;
+}
+.ant-select-arrow
+{
+  margin-top : 0px !important;
+}
+
+.ant-drawer-right .ant-drawer-content-wrapper
+{
+width: 700px !important;
+}

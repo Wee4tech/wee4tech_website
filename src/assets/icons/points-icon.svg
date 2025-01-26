@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g data-name="Group 5870" transform="translate(-1552 -400)">
+        <circle data-name="Ellipse 29" cx="16" cy="16" r="16" transform="translate(1552 400)" style="fill:#ffd949"/>
+        <circle data-name="Ellipse 30" cx="11.2" cy="11.2" r="11.2" transform="translate(1556.8 404.8)" style="fill:#e5af18"/>
+        <path data-name="Path 150" d="m34 40.49-4.243 2.362c-.586.326-.968.04-.854-.642l.833-4.968-3.456-3.5c-.475-.482-.328-.951.328-1.048l4.757-.7 2.112-4.532c.289-.621.758-.622 1.048 0l2.112 4.532 4.757.7c.657.1.806.564.328 1.048l-3.456 3.5.833 4.968c.114.681-.269.968-.854.642z" transform="translate(1534.003 379.414)" style="fill:#fff;fill-rule:evenodd"/>
+    </g>
+</svg>

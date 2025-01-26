@@ -1,0 +1,51 @@
+.user-billing-confirm-modal-container {
+  min-height: 150px;
+  padding: 24px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-billing-confirm-modal-container-main-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0a243f;
+}
+.user-billing-confirm-modal-container-main-heading-text {
+  font-size: 14px;
+  font-weight: normal;
+  color: #0a243f;
+}
+.user-billing-confirm-modal-action-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.user-billing-confirm-modal-action-cancel {
+  width: 120px;
+  height: 44px;
+  border-radius: 32px;
+  border: solid 1px #9da7b2;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a243f;
+}
+.user-billing-confirm-modal-action-cancel:hover {
+  background-color: #fff;
+  color: #0a243f !important;
+  border-color: #9da7b2 !important;
+}
+.user-billing-confirm-modal-action-save {
+  width: 220px;
+  height: 44px;
+  border-radius: 32px;
+  background-color: #bf2600;
+  color: #fff;
+}
+.user-billing-confirm-modal-action-save:hover {
+  background-color: #bf2600;
+  color: #fff !important;
+  border-color: transparent !important;
+}

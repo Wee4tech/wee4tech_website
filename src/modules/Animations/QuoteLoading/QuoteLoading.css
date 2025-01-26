@@ -1,0 +1,42 @@
+.animation_loading {
+  height: 265px;
+  width: 460px;
+}
+.loading_heading {
+  padding: 40px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loading_heading_first {
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0a243f;
+}
+.loading_heading_second {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0a243f;
+  margin-top: 10px;
+}
+.animation_loading_container {
+  display: flex;
+  justify-content: center;
+}
+.loading_modal > .ant-modal-content {
+  width: 600px;
+  height: 360px;
+}
+.loading_modal {
+  top: 30%;
+}

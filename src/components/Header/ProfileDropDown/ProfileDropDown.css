@@ -1,0 +1,12 @@
+.profile-dropDown-wrapper{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.profile-dropdown-styled-cursor{
+    color: #ffff !important;
+     font-size: 16px !important;
+     cursor:pointer }
+.profile-dropdown-list{
+    font-weight: 500;
+}

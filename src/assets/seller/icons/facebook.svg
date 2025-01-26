@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g transform="translate(-1464 -6448)">
+        <rect data-name="Rectangle 34" width="40" height="40" rx="20" transform="translate(1464 6448)" style="fill:#133b62"/>
+        <path d="M16.4 9H14V7c0-1.032.084-1.682 1.563-1.682h.868a1 1 0 0 0 1-1V3.064a1 1 0 0 0-.923-1Q15.6 2 14.693 2A4.374 4.374 0 0 0 10 6.7V9H8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2v8a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-8h2.174a1 1 0 0 0 .993-.886l.229-2A1 1 0 0 0 16.4 9z" transform="translate(1472 6456)" style="fill:#fff"/>
+    </g>
+</svg>

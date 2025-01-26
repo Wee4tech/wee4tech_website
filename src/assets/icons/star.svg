@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.379" height="32.109" viewBox="0 0 33.379 32.109">
+    <defs>
+        <linearGradient id="b8y0wmjena" x1=".5" y1=".379" x2="-.078" y2="1.341" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#dedddb"/>
+            <stop offset="1" stop-color="#585858"/>
+        </linearGradient>
+        <clipPath id="fro4uyy1fb">
+            <path data-name="Polygon 30" d="M15.093 1.96a1 1 0 0 1 1.815 0l3.576 7.724a1 1 0 0 0 .795.573l8.525.968a1 1 0 0 1 .559 1.735l-6.3 5.713a1 1 0 0 0-.308.942l1.7 8.292a1 1 0 0 1-1.466 1.074l-7.5-4.177a1 1 0 0 0-.973 0l-7.5 4.177a1 1 0 0 1-1.466-1.074l1.7-8.292a1 1 0 0 0-.308-.942l-6.3-5.713a1 1 0 0 1 .558-1.735l8.525-.968a1 1 0 0 0 .795-.573z" style="fill:url(#b8y0wmjena)"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 8392">
+        <g data-name="Polygon 45" style="stroke-linejoin:round;stroke-linecap:round;fill:#dedddb">
+            <path d="M24.471 30.11c-.336 0-.673-.089-.973-.256L16 25.677l-7.498 4.177c-.3.167-.637.255-.973.255a2 2 0 0 1-1.96-2.404l1.7-8.292L.967 13.7a1.978 1.978 0 0 1-.56-2.095 1.978 1.978 0 0 1 1.677-1.374l8.525-.968 3.576-7.723A1.98 1.98 0 0 1 16 .38a1.98 1.98 0 0 1 1.815 1.16l3.576 7.723 8.525.968c.79.09 1.434.617 1.678 1.374.244.758.03 1.56-.56 2.095l-6.303 5.713 1.7 8.292a2 2 0 0 1-1.96 2.404z" style="stroke:none" transform="translate(.69 1)"/>
+            <path d="M16 1.38a.987.987 0 0 0-.907.58l-3.577 7.723a1 1 0 0 1-.794.574l-8.525.968c-.855.097-1.196 1.157-.559 1.735l6.302 5.713a1 1 0 0 1 .308.941L6.55 27.906a1 1 0 0 0 1.466 1.074l7.498-4.176a1 1 0 0 1 .974 0l7.498 4.176a1 1 0 0 0 1.466-1.074l-1.7-8.292a1 1 0 0 1 .309-.941l6.302-5.713c.637-.578.296-1.638-.559-1.735l-8.525-.968a1 1 0 0 1-.794-.574L16.907 1.96A.987.987 0 0 0 16 1.38m0-2c1.182 0 2.225.666 2.722 1.74l3.34 7.213 7.967.905a3.006 3.006 0 0 1 2.517 2.06c.36 1.12.03 2.354-.841 3.143l-5.88 5.33 1.585 7.733A2.983 2.983 0 0 1 26.8 30a2.997 2.997 0 0 1-3.789.728L16 26.822l-7.012 3.906A2.997 2.997 0 0 1 5.2 30a2.983 2.983 0 0 1-.61-2.496l1.586-7.733-5.88-5.33a3.006 3.006 0 0 1-.84-3.142A3.006 3.006 0 0 1 1.97 9.238l7.966-.905 3.34-7.214A2.971 2.971 0 0 1 16-.62z" style="fill:#fff;stroke:none" transform="translate(.69 1)"/>
+        </g>
+        <g data-name="Group 6647">
+            <path data-name="Polygon 28" d="M14.185 3.919a2 2 0 0 1 3.63 0l2.433 5.254a2 2 0 0 0 1.589 1.147l5.769.655a2 2 0 0 1 1.118 3.469l-4.242 3.846a2 2 0 0 0-.616 1.883l1.147 5.6a2 2 0 0 1-2.933 2.149l-5.108-2.845a2 2 0 0 0-1.947 0L9.919 27.92a2 2 0 0 1-2.933-2.149l1.147-5.6a2 2 0 0 0-.616-1.883l-4.241-3.843a2 2 0 0 1 1.118-3.469l5.769-.655a2 2 0 0 0 1.589-1.147z" style="fill:url(#b8y0wmjena)" transform="translate(.69 1)"/>
+            <g data-name="Mask Group 89" style="clip-path:url(#fro4uyy1fb)" transform="translate(.69 1)">
+                <g data-name="Group 4895">
+                    <path data-name="Path 36502" d="M-2862-10734v16.158l5.642-6.937z" transform="translate(2878 10734.001)" style="fill:#9feafe"/>
+                    <path data-name="Path 36503" d="m-2871.232-10724.824 5.211-9.425-.143 16.227z" transform="translate(2881.957 10734.107)" style="fill:#59d9fc"/>
+                    <path data-name="Path 36504" d="m-2890-10714.94 10.891-2.1 4.945 6.413z" transform="translate(2890 10726.731)" style="fill:#9feafe"/>
+                    <path data-name="Path 36505" d="m-2882.733-10705.506 8.361-3.535-15.823-4.11z" transform="translate(2890.084 10725.064)" style="fill:#41b3e5"/>
+                    <path data-name="Path 36506" d="m-2855.983-10718.575-5.865 7.459 15.293-5.158z" transform="translate(2877.935 10727.39)" style="fill:#73c7ef"/>
+                    <path data-name="Path 36507" d="m-2845.385-10714.785-15.872 5.2 8.229 3.369 7.644-7.367z" transform="translate(2877.682 10725.765)" style="fill:#41b3e5"/>
+                    <path data-name="Path 36508" d="m-2852.91-10702.035-9.512-4 9.994 14.05.734-1.518z" transform="translate(2878.182 10722.015)" style="fill:#73c7ef"/>
+                    <path data-name="Path 36509" d="m-2852.006-10691.008-10.392-14.906.308 9.816z" transform="translate(2878.171 10721.963)" style="fill:#0073a9"/>
+                    <path data-name="Path 36510" d="m-2869.29-10694.615-.474-11.223-9.448 14.234h1.326z" transform="translate(2885.377 10721.93)" style="fill:#0073a9"/>
+                    <path data-name="Path 36511" d="m-2881.82-10701.189 11.056-4.731-9.351 13.881-1.706-3.136z" transform="translate(2886.495 10721.966)" style="fill:#41b3e5"/>
+                </g>
+                <g data-name="Group 4894">
+                    <g data-name="Group 4884">
+                        <path data-name="Path 36500" d="m-2856.055-10724.587-5.945 7.492v-15.44" transform="translate(2878 10733.372)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-linecap:round"/>
+                        <path data-name="Path 36501" d="m-2866.845-10711.877-6.459-8.483" transform="translate(2882.845 10728.153)" style="fill:none;stroke:#fff;stroke-linecap:round"/>
+                    </g>
+                    <g data-name="Group 4885">
+                        <path data-name="Path 36500" d="M5.945 7.949 0 15.44V0" transform="rotate(-76 8.22 5.51)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-linecap:round"/>
+                        <path data-name="Path 36501" d="M6.459 8.483 0 0" transform="rotate(-76 15.903 6.165)" style="fill:none;stroke:#fff;stroke-linecap:round"/>
+                    </g>
+                    <g data-name="Group 4886">
+                        <path data-name="Path 36500" d="M0 15.44V0" transform="rotate(72 7.413 26.783)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-linecap:round"/>
+                        <path data-name="Path 36501" d="M5.751 8.984 0 0" transform="rotate(72 5.845 19.597)" style="fill:none;stroke:#fff;stroke-linecap:round"/>
+                    </g>
+                    <g data-name="Group 4887">
+                        <path data-name="Path 36500" d="M6.265 9.516 0 16.56 2.66 0" transform="rotate(135.97 8.013 19.328)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-linecap:round"/>
+                        <path data-name="Path 36501" d="M4.292 10.122 0 0" transform="rotate(135.97 8.858 15.24)" style="fill:none;stroke:#fff;stroke-linecap:round"/>
+                    </g>
+                    <g data-name="Group 4888">
+                        <path data-name="Path 36500" d="M0 15.461 5.908 0" transform="rotate(-167 7.985 14.698)" style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-linecap:round"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

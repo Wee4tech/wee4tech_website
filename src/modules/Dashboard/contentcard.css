@@ -1,0 +1,191 @@
+.dashboard-content-card-container {
+  align-items: center;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-content-card-container-text-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.dashboard-content-card-head-container {
+  max-width: 80%;
+  min-width: 50%;
+}
+.dashboard-content-card-container-text-heading-length {
+  font-size: 20px;
+  padding-left: 1rem;
+}
+.dashboard-content-card-container-text-view-all {
+  color: #2973f0;
+  font-weight: 500;
+  cursor: pointer;
+}
+.vehicle-card-container {
+  overflow-y: auto;
+  max-height: 376px;
+}
+.vehicle-sub-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-top: 1px solid #dedede;
+}
+.vehicle-sub-row-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.vehicle-sub-row-2-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.vehicle-sub-row-2-card-container-text {
+  font-weight: 500;
+}
+.vehicle-sub-row-2-card-container-text-date {
+  color: #6c7c8c;
+}
+.vehicle-sub-card-status-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.vehicle-sub-sub-card-status-container {
+  font-weight: 500;
+  color: #006644;
+  height: 32px;
+  background-color: #abf5d1;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.vehicle-sub-sub-card-status-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vehicle-sub-sub-card-status-container-image {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.vehicle-sub-sub-card-status-container-image-container {
+  display: flex;
+  border-radius: 8px;
+  background-color: #f1f1f2;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.vehicle-sub-sub-card-status-container-image-text {
+  color: #6c7c8c;
+}
+.rejected-card-container {
+  overflow-y: auto;
+  max-height: 376px;
+}
+.rejected-card-data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-top: 1px solid #dedede;
+}
+.rejected-card-data-sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+.rejected-card-data-sub-id-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rejected-card-data-sub-id-text {
+  font-weight: 500;
+}
+.rejected-card-data-sub-name-text {
+  color: #6c7c8c;
+}
+.rejected-card-amount-container {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+}
+.rejected-card-amount-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+.rejected-card-amount-sub-text {
+  font-weight: 500;
+}
+.rejected-card-amount-sub-text-item {
+  color: #6c7c8c;
+}
+.rejected-card-status-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.rejected-card-status-sub-container {
+  font-weight: 500;
+  color: #bf2600;
+  height: 32px;
+  background-color: #ffebe6;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.return-exchange-card-status-sub-container {
+  font-weight: 500;
+  color: #b46433;
+  height: 32px;
+  background-color: #fde9c8;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.rfq-requests-card-content-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+.rfq-status-container {
+  font-weight: 500;
+  height: 32px;
+  background-color: #e8e8e8;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.rfq-order-card-content-sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+}
+.rfq-order-status-container {
+  font-weight: 500;
+  color: #006644;
+  height: 32px;
+  background-color: #abf5d1;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.item-issues-sub-name-container {
+  display: flex;
+  width: 55%;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-issues-status-container {
+  font-weight: 500;
+  color: #384853;
+  height: 32px;
+  background-color: #f8e6b6;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.return-exchange-icon-container {
+  display: flex;
+  gap: 8px;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g data-name="map-pin (1)" transform="translate(1 1)">
+        <path data-name="Path 159" d="M19.364 9.182c0 6.363-8.182 11.818-8.182 11.818S3 15.545 3 9.182a8.182 8.182 0 0 1 16.364 0z" style="fill:none;stroke:#6c7b8b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <circle data-name="Ellipse 35" cx="2.727" cy="2.727" r="2.727" transform="translate(8.455 6.455)" style="fill:none;stroke:#6c7b8b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+    </g>
+</svg>

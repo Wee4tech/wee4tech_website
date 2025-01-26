@@ -1,0 +1,20 @@
+.select-default-style {
+  /* border: 1px solid #dedede; */
+  border-radius: 8px;
+}
+
+.select-default-style > .ant-select-selector span {
+  color: #0a243f;
+  font-size: 14px;
+  font-weight: 500;
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-select:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  border: none;
+}
+/* .select-default-style > .ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+} */

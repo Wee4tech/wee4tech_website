@@ -1,0 +1,7 @@
+:where(.css-dev-only-do-not-override-qgg3xn).ant-form-item
+  .ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  content: "";
+}

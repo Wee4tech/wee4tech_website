@@ -1,0 +1,25 @@
+.edit-address .ant-modal-header {
+  border-bottom: 1px solid #dedede !important ;
+  border-radius: 16px 16px 0 0 !important;
+  margin-bottom: 0 !important;
+}
+.ant-modal .ant-modal-content {
+  padding: 0px;
+  border-radius: 16px;
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-radio-wrapper
+  span.ant-radio
+  + * {
+  width: 100%;
+}
+.edit-address .ant-modal-body {
+  height: 400px;
+  overflow: auto;
+}
+.ant-col-24.ant-form-item-label {
+  padding: 0;
+}
+
+.radio-edit-container > span:nth-child(2) {
+  width: 100%;
+}

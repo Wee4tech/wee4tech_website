@@ -1,0 +1,93 @@
+@media (min-width: 1200px) {
+    .d-xl-block {
+        display: block !important;
+    }
+}
+@media (min-width: 992px) {
+    .d-lg-block {
+        display: block !important;
+    }
+}
+@media (min-width: 768px) {
+    .d-md-block {
+        display: block !important;
+    }
+}
+.d-none {
+    display: none !important;
+}
+.online-store
+{
+    /* width: 160px;
+    height: 32px;     */
+    border-radius: 8px;
+    background-color: #dbf0e0;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ant-drawer-content-wrapper
+{
+    border-radius: 16px 0 0 16px !important;
+    width: 500px !important;
+}
+.ant-drawer-content
+{
+    border-radius: 16px 0 0 16px !important;
+}
+.no-notification
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top:20px;
+}
+.fixed-font
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.font-eclipse
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.btn-add-newseller-list
+{
+    text-align:  center;
+    border-radius: 16px;
+    border: solid 1.5px #dedede;
+  
+}
+.btn-add-newseller-list span
+{
+    color: #0060e5;
+    
+}
+.cls-top-seller-menu
+{
+    padding: 8px 16px 8px !important;
+    border-radius: 8px !important;
+    background-color: #f3f2ef;
+    font-size: 14px;
+  
+}
+.notification-badge .ant-badge-count
+{
+    z-index: auto;
+    min-width: 20px !important;
+    height: 20px !important;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    background: #ff4d4f;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #ffffff;
+    transition: background 0.2s;
+    top: -.5em;
+    padding: unset;
+}
