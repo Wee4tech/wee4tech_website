@@ -12,7 +12,6 @@ import {
 import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
 import {
-  getAuthToken,
   getLoginUserDetail,
 } from "../../../redux/slices/loginAuth/action";
 
