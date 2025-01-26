@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Layout, Menu, Typography } from "antd";
-
 import HomeIcon from "../../Icons/HomeIcon";
 import { sellerMenuItems, sellerRoutes } from "./../SellerSidebar/menuItems";
-
 import OrderIcon from "../../Icons/OrderIcon";
 import CustomerIcon from "../../Icons/CustomerIcon";
 import SellerIcon from "../../Icons/SellerIcon";
@@ -24,8 +22,8 @@ import Settlements from "../../Icons/Settlements";
 // import {Settlements as ReactComponent} from "../../../assets/seller/icons/settlement.svg"
 import { useNavigate } from "react-router-dom";
 
-import { OpenCloseButton, LeftContainer } from "../SellerHeader/NavbarStyled";
 const { Sider } = Layout;
+// eslint-disable-next-line
 const Text = Typography;
 const Sidebar = ({ collapsed, setCollapsed }) => {
   const isMobile =
@@ -33,50 +31,9 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
       navigator.userAgent
     );
 
-  
+  // eslint-disable-next-line
   const navigate = useNavigate();
-  const handleNavigateDashboard = () => {
-    const currentPath = window.location.pathname;
-    const dashboardPath = "dashboard";
-    if (currentPath === dashboardPath) {
-      window.location.reload();
-    } else {
-      navigate(dashboardPath);
-    }
-  };
-  const ArrowTop = [
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="10.121"
-      height="10.121"
-      viewBox="0 0 10.121 10.121"
-    >
-      <path
-        data-name="Line 113"
-        transform="translate(1.061 1.061)"
-        style={{
-          fill: "none",
-          stroke: "#000",
-          strokelinecap: "round",
-          strokelinejoin: "round",
-          strokewidth: "1.5px",
-        }}
-        d="m0 8 8-8"
-      />
-      <path
-        data-name="Path 45676"
-        d="M7 7h8v8"
-        style={{
-          fill: "none",
-          stroke: "#000",
-          strokelinecap: "round",
-          strokelinejoin: "round",
-          strokewidth: "1.5px",
-        }}
-        transform="translate(-5.939 -5.939)"
-      />
-    </svg>,
-  ];
+
   const [selectedMenu, setSelectedMenu] = useState(null);
   const { seller_id } = useParams();
   let { pathname } = useLocation();
@@ -95,7 +52,6 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
     MOBsettlements: <Settlements />,
     customer: <CustomerIcon />,
     forms: <RequestIcon />,
-
     Payablesrecievables: <Payables />,
     ReturnExchange: <ReturnExchange />,
     OrderIssues: <OrderIssue />,

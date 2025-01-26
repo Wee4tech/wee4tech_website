@@ -1,26 +1,12 @@
-import React, {useEffect, useState} from "react";
-import {Col, Tag, Typography} from "antd";
+import React, { useEffect, useState } from "react";
+import { Col, Typography } from "antd";
 import SearchInput from "../../../components/Input/SearchInputs/SearchInput";
 import CustomTableWithPagination from "../../../components/CustomTableWithPagination/CustomTableWithPagination";
-import {
-  useLazyGetCarriersReportsQuery
-} from "../../../apis/reports";
+import { useLazyGetCarriersReportsQuery } from "../../../apis/reports";
 import TableSkeleton from "../../../components/skeleton/TableSkeleton";
 
-import {
-  
-  dateFormat,
-} from "../../../commonFuntions/CommonUtilFunctions";
-import {Link} from "react-router-dom";
+const { Text } = Typography;
 
-const {Text} = Typography;
-const options = [
-  {
-    key: 1,
-    value: "Export",
-    label: "Export",
-  },
-];
 const Carriers = () => {
   const [searchedValue, setSearchedValue] = useState({});
 
@@ -28,9 +14,9 @@ const Carriers = () => {
 
   const [
     getCustomerOrderReportApi,
-    {data: customerOrderReportData, isFetching},
+    { data: customerOrderReportData, isFetching },
   ] = useLazyGetCarriersReportsQuery();
-  
+
   useEffect(() => {
     getCustomerOrderReportApi({ UserId: 1 });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -44,11 +30,7 @@ const Carriers = () => {
       width: "230px",
       fixed: "left",
       render: (params, record) => {
-        return (
-         <Col>
-            {params}
-            </Col>
-        );
+        return <Col>{params}</Col>;
       },
     },
     {
@@ -57,11 +39,7 @@ const Carriers = () => {
       key: "MobileNo",
       width: "200px",
       render: (params, record) => {
-        return (
-          <Col>
-              {params}
-           </Col>
-        );
+        return <Col>{params}</Col>;
       },
     },
     {
@@ -71,11 +49,11 @@ const Carriers = () => {
       width: "250px",
       render: (params, record) => {
         return (
-          <Col style={{fontWeight: 400}}>
+          <Col style={{ fontWeight: 400 }}>
             <Text>{params} </Text>
           </Col>
         );
-      }, 
+      },
     },
     {
       title: "Current Location",
@@ -83,11 +61,7 @@ const Carriers = () => {
       key: "CurrentLocation",
       width: "150px",
       render: (params, record) => {
-        return (
-          <Col style={{fontWeight: 400}}>
-            {params}
-          </Col>
-        );
+        return <Col style={{ fontWeight: 400 }}>{params}</Col>;
       },
     },
 
@@ -190,9 +164,9 @@ const Carriers = () => {
       render: (parmas, record) => {
         return (
           <Col>
-           <a href={parmas} target="_blank" rel="noopener noreferrer">
-             <Text>View File</Text>
-          </a>
+            <a href={parmas} target="_blank" rel="noopener noreferrer">
+              <Text>View File</Text>
+            </a>
           </Col>
         );
       },
@@ -202,7 +176,7 @@ const Carriers = () => {
   const handlePageChange = async (currPage) => {
     const params = {
       page: currPage,
-      ...(searchedValue && {search: searchedValue?.search}),
+      ...(searchedValue && { search: searchedValue?.search }),
     };
     setCurrentPage(currPage);
     await getCustomerOrderReportApi(params);
@@ -213,11 +187,10 @@ const Carriers = () => {
     setCurrentPage(1);
   };
 
-
   return (
     <Col className="SalesReport-wrapper">
       <Text className="heading">Job careers</Text>
-      <Col style={{display: "flex", gap: "1rem"}}>
+      <Col style={{ display: "flex", gap: "1rem" }}>
         <SearchInput
           size={"large"}
           placeholder={"Search by customer name, mobile no, email"}
@@ -226,8 +199,6 @@ const Carriers = () => {
           handleSearchedValue={handleSearchedValue}
           isLoading={isFetching}
         />
-
-        
       </Col>
       <CustomTableWithPagination
         className="order-list-table"
@@ -237,7 +208,7 @@ const Carriers = () => {
           emptyText: isFetching ? <TableSkeleton length={10} /> : "",
         }}
         isLoading={customerOrderReportData?.data?.results.length && isFetching}
-        scroll={{x: "100%"}}
+        scroll={{ x: "100%" }}
         currentPage={currentPage}
         handlePageChange={handlePageChange}
         itemsPerPage={30}

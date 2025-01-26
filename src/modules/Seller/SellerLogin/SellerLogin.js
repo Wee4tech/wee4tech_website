@@ -27,10 +27,9 @@ const SellerLogin = () => {
 
   const [emailOrPhone, setEmailOrPhone] = useState("");
 
-  const [hasCalledApi, setHasCalledApi] = useState(false);
 
-  const [ispageLoading, setispageLoading] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
+// eslint-disable-next-line 
+  const [ispageLoading, setispageLoading] = useState(false); 
 
   const handleLogin = async () => {
     // const response = await verifyOtpApi({

@@ -10,20 +10,7 @@ import CustomTableWithPagination from "../../../components/CustomTableWithPagina
 import { useLazyGetContactUsReportQuery } from "../../../apis/reports";
 import TableSkeleton from "../../../components/skeleton/TableSkeleton";
 
-import {
-  dateFormat,
-  // onlyDateFormat,
-} from "../../../commonFuntions/CommonUtilFunctions";
-import { Link } from "react-router-dom";
-
 const { Text } = Typography;
-const options = [
-  {
-    key: 1,
-    value: "Export",
-    label: "Export",
-  },
-];
 
 // const dateOptions = [
 //   {
