@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Input, Pagination, Table, Typography } from "antd";
-
+import moment from 'moment';
 import { useLazyGetCarriersReportsQuery } from "../../../apis/reports";
 
 const { Text } = Typography;
@@ -32,22 +32,36 @@ const Carriers = () => {
       },
     },
     {
+      title: "Registration Date",
+      dataIndex: "CreatedDate",
+      key: "CreatedDate",
+      width: "230px",
+      fixed: "left",
+      render: (params, record) => {
+        const formattedDate = moment(params).format('DD-MMM-YYYY hh:mm A');
+        return <Col>{formattedDate}</Col>;
+      },
+    },
+    {
       title: "Resume",
-      dataIndex: "ResumePath",
+      // dataIndex: "ResumePath",
       key: "ResumePath",
       width: "250px",
       render: (parmas, record) => {
+        console.log("🚀 ~ Carriers ~ record:", record)
         return (
           <Col>
-            <a
-              href={parmas}
-              target="_blank"
-              title="Click to view"
-              class="hyper-link"
-              rel="noopener noreferrer"
-            >
-              <Text>View Resume</Text>
-            </a>
+          {record?.DocumentPath && (
+      <a
+        href={record?.params} 
+        target="_blank"
+        title="Click to view"
+        className="hyper-link" 
+        rel="noopener noreferrer"
+      >
+        <Text>View Resume </Text>
+      </a>
+    )}
           </Col>
         );
       },

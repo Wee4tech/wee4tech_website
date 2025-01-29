@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import { Layout, Affix } from "antd";
 import Sidebar from "../components/SellerComponents/SellerSidebar/Sidebar";
 import Navbar from "../components/SellerComponents/SellerHeader/Navbar";
-import "../SellerResponsive.css"
+import "../Responsive.css"
 
 const { Content, Header: AntHeader } = Layout;
 
