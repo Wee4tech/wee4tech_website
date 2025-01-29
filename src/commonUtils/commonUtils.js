@@ -1,12 +1,12 @@
 // -------------Local URL
-export const apiBaseUrl = `http://localhost:54790`;
+// export const apiBaseUrl = `http://localhost:54790`;
 
 
 export const baseUrl = ``;
 
 // -------------live url
-// export const apiBaseUrl =
-//   `https://roshanbags.com/EcommerceAPI` || process.env.REACT_APP_BASE_URL;
+export const apiBaseUrl =
+  `https://roshanbags.com/EcommerceAPI` || process.env.REACT_APP_BASE_URL;
 
 
 export const gstRegex = /^(?:[0-3|9][0-9])[a-zA-Z0-9]{13}$/;
