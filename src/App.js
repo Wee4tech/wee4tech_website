@@ -13,12 +13,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import NotificationToast from "./NotificationToast/NotificationToast.js";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop.js";
 import Page404 from "./modules/NotFoundPage/Page404.js";
-
 import SellerLogin from "./modules/Seller/SellerLogin/SellerLogin.js";
-
-
-
-
 import ContactUs from "./modules/Reports/ContactUs/ContactUs.js";
 import Carriers from "./modules/Reports/Carriers/Carriers.js";
 
@@ -71,8 +66,6 @@ function App() {
                 }
               />
 
-              
-
               {/* REPORTS */}
               <Route
                 exact
@@ -97,8 +90,6 @@ function App() {
               {["/", "Login"].map((path) => (
                 <Route exact path={path} element={<SellerLogin />} />
               ))}
-
-             
 
               {/* DASHBOARD ROUTES */}
               <Route

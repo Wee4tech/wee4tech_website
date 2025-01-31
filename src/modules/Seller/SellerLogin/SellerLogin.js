@@ -41,8 +41,7 @@ const SellerLogin = () => {
 
     if (emailOrPhone.trim().toLowerCase() === "it@wee4techsolutions.com") {
       localStorage.setItem("accessToken", "asfasdasdsadsadsaddfgdfg");
-      localStorage.setItem("bmp_id", "1");
-      localStorage.setItem("bmp_name", "Test");
+      localStorage.setItem("UserId", "1");    
       navigate("/dashboard");
     } else {
       showErrorToast("Invalid Credentials");

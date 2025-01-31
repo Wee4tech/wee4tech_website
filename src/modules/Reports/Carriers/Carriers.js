@@ -22,16 +22,6 @@ const Carriers = () => {
   const [filteredData, setFilteredData] = useState(data);
   const columns = [
     {
-      title: "Name",
-      dataIndex: "FullName",
-      key: "FullName",
-      width: "230px",
-      fixed: "left",
-      render: (params, record) => {
-        return <Col>{params}</Col>;
-      },
-    },
-    {
       title: "Registration Date",
       dataIndex: "CreatedDate",
       key: "CreatedDate",
@@ -43,17 +33,28 @@ const Carriers = () => {
       },
     },
     {
+      title: "Name",
+      dataIndex: "FullName",
+      key: "FullName",
+      width: "230px",
+     
+      render: (params, record) => {
+        return <Col>{params}</Col>;
+      },
+    },
+    
+    {
       title: "Resume",
       // dataIndex: "ResumePath",
       key: "ResumePath",
       width: "250px",
       render: (parmas, record) => {
-        console.log("🚀 ~ Carriers ~ record:", record)
+      
         return (
           <Col>
           {record?.DocumentPath && (
       <a
-        href={record?.params} 
+        href={record?.ResumePath} 
         target="_blank"
         title="Click to view"
         className="hyper-link" 
