@@ -35,12 +35,12 @@ export const reportsAPI = createApi({
     getDataTracksReports: builder.query({
       query: (body) => {
         return {
-          url: `https://api.company-information.service.gov.uk/advanced-search/companies?company_name_includes=sample&company_status=active&start_index=0`,
-          method: "GET",          
+          url: `/DataTracksReport/DataTracksReport?start_index=0`,
+          method: "GET",           
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Basic NjcyZGM0ZGQtZjRjNi00YzFhLTkwMjktZGVmN2NiNTQ3M2RhOg==',
-            'Cookie': 'JSESSIONID=296FB41F5F91B647B95328119FB7F58B',
+            // 'Authorization': 'Basic NjcyZGM0ZGQtZjRjNi00YzFhLTkwMjktZGVmN2NiNTQ3M2RhOg==',
+            // 'Cookie': 'JSESSIONID=296FB41F5F91B647B95328119FB7F58B',
           },
         };
       },
