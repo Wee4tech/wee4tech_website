@@ -6,6 +6,7 @@ import { useLazyGetDataTracksReportsQuery } from "../../../apis/reports";
 const { Text } = Typography;
 
 const DataTracks = () => {
+  // eslint-disable-next-line 
   const [searchValue, setSearchValue] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
 
