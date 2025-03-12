@@ -25,7 +25,11 @@ export const sellerMenuItems = [
           title: "Job careers",
           path: "/carriersreport",
         },
-       
+        {
+          key: "datatracks",
+          title: "Data Tracks",
+          path: "/datatracks",
+        },
     
       
     ],

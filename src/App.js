@@ -16,6 +16,7 @@ import Page404 from "./modules/NotFoundPage/Page404.js";
 import SellerLogin from "./modules/Seller/SellerLogin/SellerLogin.js";
 import ContactUs from "./modules/Reports/ContactUs/ContactUs.js";
 import Carriers from "./modules/Reports/Carriers/Carriers.js";
+import DataTracks from "./modules/Reports/DataTracks/DataTracks.js";
 
 const generateBreakpoint = (min, max) =>
   `@media screen and (min-width: ${min}px) and (max-width: ${max}px)`;
@@ -85,6 +86,15 @@ function App() {
                   </PrivateRoute>
                 }
                 path="carriersreport"
+              />
+              <Route
+                exact
+                element={
+                  <PrivateRoute>
+                    <DataTracks />
+                  </PrivateRoute>
+                }
+                path="datatracks"
               />
 
               {["/", "Login"].map((path) => (
