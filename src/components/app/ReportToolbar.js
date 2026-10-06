@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, DatePicker, Flex, Input, Tooltip } from "antd";
+import { Button, DatePicker, Input, Tooltip } from "antd";
 import { DownloadOutlined, ReloadOutlined, SearchOutlined } from "@ant-design/icons";
 
 // Shared search / date range / refresh / export bar for the report pages.
@@ -9,38 +9,39 @@ export default function ReportToolbar({
   searchPlaceholder,
   range,
   onRange,
-  extra,
   onReload,
   loading,
   onExport,
   exportDisabled,
+  count,
 }) {
   return (
-    <Flex wrap="wrap" gap={12} className="report-toolbar">
+    <div className="toolbar">
       <Input
         allowClear
-        prefix={<SearchOutlined />}
+        prefix={<SearchOutlined className="muted" />}
         placeholder={searchPlaceholder}
         value={search}
         onChange={(e) => onSearch(e.target.value)}
-        className="report-toolbar__search"
+        className="toolbar__search"
       />
-      {extra}
       <DatePicker.RangePicker
         value={range}
         onChange={onRange}
         format="DD MMM YYYY"
         allowEmpty={[true, true]}
-        className="report-toolbar__range"
+        placeholder={["From date", "To date"]}
+        className="toolbar__range"
       />
-      <Flex gap={8} className="report-toolbar__actions">
+      <div className="toolbar__end">
+        {count && <span className="toolbar__count">{count}</span>}
         <Tooltip title="Refresh">
           <Button icon={<ReloadOutlined />} onClick={onReload} loading={loading} aria-label="Refresh" />
         </Tooltip>
-        <Button icon={<DownloadOutlined />} onClick={onExport} disabled={exportDisabled}>
+        <Button type="primary" ghost icon={<DownloadOutlined />} onClick={onExport} disabled={exportDisabled}>
           Export
         </Button>
-      </Flex>
-    </Flex>
+      </div>
+    </div>
   );
 }
