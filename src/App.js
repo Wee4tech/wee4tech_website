@@ -1,122 +1,58 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Layout } from "antd";
-import "./App.css";
-import Dashboard from "./modules/Dashboard/Dashboard";
-import { store } from "./store";
-import { Provider } from "react-redux";
-import { ThemeProvider } from "styled-components";
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { ConfigProvider, Spin } from "antd";
+import AppLayout from "./components/app/AppLayout";
+import RequireAuth from "./components/app/RequireAuth";
+import ErrorBoundary from "./components/app/ErrorBoundary";
+import { isAuthed } from "./lib/auth";
 
-//import LogIn from "./components/LogIn/LogIn";
-import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
-
-import NotificationToast from "./NotificationToast/NotificationToast.js";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop.js";
-import Page404 from "./modules/NotFoundPage/Page404.js";
-import SellerLogin from "./modules/Seller/SellerLogin/SellerLogin.js";
-import ContactUs from "./modules/Reports/ContactUs/ContactUs.js";
-import Carriers from "./modules/Reports/Carriers/Carriers.js";
-import DataTracks from "./modules/Reports/DataTracks/DataTracks.js";
-
-const generateBreakpoint = (min, max) =>
-  `@media screen and (min-width: ${min}px) and (max-width: ${max}px)`;
+// Each page is its own chunk, so the first load only ships what's needed.
+const Login = lazy(() => import("./pages/Login"));
+const Dashboard = lazy(() => import("./pages/Dashboard"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const Careers = lazy(() => import("./pages/Careers"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 const theme = {
-  breakpoints: {
-    xs: generateBreakpoint(0, 550),
-    sm: generateBreakpoint(551, 850),
-    md: generateBreakpoint(851, 1150),
-    lg: generateBreakpoint(1151, 1500),
-  },
-  light: {
-    background: "#ffffff",
-    textColor: "#333333",
-    buttonColor: "#ff9900",
-    fontFamily: "Arial, sans-serif",
-    fontWeight: "normal",
-  },
-  dark: {
-    background: "#333333",
-    textColor: "#ffffff",
-    buttonColor: "#007bff",
-    fontFamily: "Arial, sans-serif",
-    fontWeight: "normal",
+  token: {
+    colorPrimary: "#0354a3",
+    borderRadius: 8,
+    fontFamily:
+      'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
   },
 };
 
-function App() {
+const PageLoader = () => (
+  <div className="page-loader">
+    <Spin size="large" />
+  </div>
+);
+
+export default function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Provider store={store}>
-        <NotificationToast />
-        <Router>
-          <ScrollToTop />
-          {/* Generic route for 404 page */}
-          <Layout style={{ minHeight: "100vh" }}>
+    <ConfigProvider theme={theme}>
+      <BrowserRouter>
+        <ErrorBoundary>
+          <Suspense fallback={<PageLoader />}>
             <Routes>
-              <Route path="*" element={<Page404 />} />
-
-              {/* DASHBOARD ROUTES */}
+              <Route path="/" element={<Navigate to={isAuthed() ? "/dashboard" : "/login"} replace />} />
+              <Route path="/login" element={<Login />} />
               <Route
-                path="/admin/dashboard"
-                exact
                 element={
-                  <PrivateRoute>
-                    <Dashboard />
-                  </PrivateRoute>
+                  <RequireAuth>
+                    <AppLayout />
+                  </RequireAuth>
                 }
-              />
-
-              {/* REPORTS */}
-              <Route
-                exact
-                element={
-                  <PrivateRoute>
-                    <ContactUs />
-                  </PrivateRoute>
-                }
-                path="/contactusreport"
-              />
-
-              <Route
-                exact
-                element={
-                  <PrivateRoute>
-                    <Carriers />
-                  </PrivateRoute>
-                }
-                path="carriersreport"
-              />
-              <Route
-                exact
-                element={
-                  <PrivateRoute>
-                    <DataTracks />
-                  </PrivateRoute>
-                }
-                path="datatracks"
-              />
-
-              {["/", "Login"].map((path) => (
-                <Route exact path={path} element={<SellerLogin />} />
-              ))}
-
-              {/* DASHBOARD ROUTES */}
-              <Route
-                path="/dashboard"
-                exact
-                element={
-                  <PrivateRoute>
-                    <Dashboard />
-                  </PrivateRoute>
-                }
-              />
+              >
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/contactusreport" element={<ContactUs />} />
+                <Route path="/carriersreport" element={<Careers />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
             </Routes>
-          </Layout>
-        </Router>
-      </Provider>
-    </ThemeProvider>
+          </Suspense>
+        </ErrorBoundary>
+      </BrowserRouter>
+    </ConfigProvider>
   );
 }
-
-export default App;

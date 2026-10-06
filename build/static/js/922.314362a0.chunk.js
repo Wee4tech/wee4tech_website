@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwee4_admin=self.webpackChunkwee4_admin||[]).push([[922],{8922:(e,s,t)=>{t.r(s),t.d(s,{default:()=>i});t(2791);var a=t(1087),r=t(8935),d=t(462),n=t(184);function i(){return(0,n.jsx)(r.ZP,{status:"404",title:"Page not found",subTitle:"This page doesn't exist or has been removed.",extra:(0,n.jsx)(a.rU,{to:"/dashboard",children:(0,n.jsx)(d.ZP,{type:"primary",children:"Go to dashboard"})})})}}}]);
+//# sourceMappingURL=922.314362a0.chunk.js.map
